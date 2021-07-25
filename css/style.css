@@ -1,0 +1,117 @@
+/* header-area */
+/* navbar-area */
+.nav-area li
+{
+    padding: 0 10px;
+}
+.nav-area li:hover
+{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 10px 0px;
+    transform: scale(1.1);
+    transition:transform 1s ease-in-out .2s;
+  
+}
+.sb-example-3 .search__input {
+    width: 100%;
+    padding: 12px 24px;
+
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #575756;
+    background-color:#F1F1F1;
+    ;
+/*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.sb-example-3 .search__input::placeholder {
+        color: #C1C1C1;
+        text-transform: capitalize;
+        
+    }
+
+.sb-example-3 .search__input:hover,
+    .search__input:focus {
+        outline: 0;
+        border: 1px solid transparent;
+        border-radius: 50;
+       
+    }
+/* navbar-area */
+/* slide-area */
+.panda-bg-primary
+{
+    background-color: #FEEAE9;
+}
+.panda-btn-info
+{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    padding:10px 20px;
+  color: #FEEAE9;
+}
+
+.price
+{
+    color:#FF136F;
+}
+.text
+{
+    
+    color: #4E4E4E;
+    
+}
+/* main */
+.catagory :hover img
+{
+transform: scale(1.2) rotate(30deg);
+transition:transform 1s ease-in-out .05s;
+}
+.panda-bg-success-1
+{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.panda-bg-success-2
+{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.panda-bg-success-3
+{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+.panda-btn-dark
+{
+    background: black;
+    padding:10px 20px;
+  color: #FEEAE9;
+}
+.card:hover
+{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out .02s;
+    background:linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.card:hover .price,
+.card:hover .text
+{
+    color:white;
+}
+.card:hover .card-footer{
+    background:linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.card:hover img{
+    transform: rotate(10deg);
+    transition: transform 1s ease-in-out.02s;
+}
